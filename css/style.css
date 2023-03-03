@@ -1,0 +1,27 @@
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: Poppins;
+}
+body{
+   
+}
+/* Nav Bar */
+img #profilePic  {
+    background-color: aqua !important;
+    border: 1px solid white !important;
+    height: 40% !important;
+    width: 40% !important;
+}
+.navbarCopy {
+    position: fixed;
+    height: 100% !important;
+    width: 200px;
+
+}
+
+.hero {
+    src: url(../images/bg-image-hero.jpg)!important;
+    height: 100% !important;
+}
