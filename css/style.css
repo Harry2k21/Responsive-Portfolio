@@ -5,23 +5,102 @@
     font-family: Poppins;
 }
 body{
-   
+   background-color: rgb(155, 155, 155);
 }
 /* Nav Bar */
-img #profilePic  {
-    background-color: aqua !important;
-    border: 1px solid white !important;
-    height: 40% !important;
-    width: 40% !important;
+img#profilePic  {
+    position: relative;
+    left: 13px;
+    align-items: center;
+    border-radius: 110px;
+    border: 2px solid rgb(250, 249, 249) !important;
+    height: 134px !important;
+    width: 134px !important;
 }
+/* Name */
+a.navbar-brand {
+    font-weight: 600;
+    position: relative !important ;
+    left:19px !important;
+    bottom: 20px !important;
+}
+
 .navbarCopy {
+    
+    background-color: rgb(15, 13, 24) !important;
     position: fixed;
     height: 100% !important;
     width: 200px;
 
 }
+/* Social Icons */
 
-.hero {
-    src: url(../images/bg-image-hero.jpg)!important;
-    height: 100% !important;
+.socials{
+    background-color: rgb(245, 241, 241);
+    border-radius: 20px;
+   position: relative;
+   display: inline-flex;
+   bottom: 40px;
+   left: 20px;
+}
+
+.linkedIn img{
+    
+    height: 30px !important;
+    width: 30px !important;
+    position: relative;
+    margin: 5px;
+}
+
+.github img{
+    height: 30px !important;
+    width: 30px !important;
+    position: relative;
+    margin: 5px;
+    
+}
+
+.email img{
+    height: 30px !important;
+    width: 30px !important;
+    position: relative;
+    margin: 5px;
+}
+/* Social Icons End */
+/* Nav Iconns */
+.home img, .about img, .resume img, .service img, .contact img {
+    background-color: white;
+    background-image: white;
+    border-radius: 16px;
+    width: 30px;
+    height: 30px; 
+    position: relative;
+    top: 32px;
+    right: 45px;   
+}
+
+li.nav-item {
+    padding: 20px !important;
+    position: relative;
+    bottom: 80px;
+    left: 45px;
+    
+}
+
+/* Hero Section */
+.mainText h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+    position: relative; 
+    bottom: 680px; 
+    text-align: center;
+}
+
+.secondText h2 {
+    color: white;
+    position: relative; 
+    font-weight: 300;
+    bottom: 680px; 
+    text-align: center;
 }
